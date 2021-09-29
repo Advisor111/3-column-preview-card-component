@@ -17,10 +17,6 @@ body {
     .container {
         width: 750px;
     }
-    .suv,
-    .luxury {
-        border-bottom-right-radius: 7px;
-    }
 }
 @media (min-width: 992px) {
     .container {
