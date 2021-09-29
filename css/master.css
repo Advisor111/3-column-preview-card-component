@@ -8,6 +8,7 @@ body {
     margin: 0;
     padding: 0;
     font-family: Arial, Helvetica, sans-serif;
+    background-color: #f2f2f2;
 }
 .container {
     padding: 0 30px;
@@ -31,11 +32,17 @@ body {
 /* end components */
 /* start cards section */
 /* g-fold */
+.container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
 .cards {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(345px, 1fr));
     color: white;
-    margin: 100px auto;
+    margin: auto;
     border-radius: 7px;
     overflow: hidden;
 }
